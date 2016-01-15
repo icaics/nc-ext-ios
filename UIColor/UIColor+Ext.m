@@ -1,14 +1,13 @@
 //
-//  UIColor_Hex.m
-//
+//  UIColor_Ext.m
 //
 //  Created by 菜酱 on 15/8/14.
 //  Copyright (c) 2015年 菜酱. All rights reserved.
 //
 
-#import "UIColor+Hex.h"
+#import "UIColor+Ext.h"
 
-@implementation UIColor (Hex)
+@implementation UIColor (Ext)
 
 + (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
 {

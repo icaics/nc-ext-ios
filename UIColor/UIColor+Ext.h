@@ -1,6 +1,5 @@
 //
-//  NSObject+UIColor_Hex.h
-//  TruthOrDare
+//  NSObject+UIColor_Ext.h
 //
 //  Created by 菜酱 on 15/8/14.
 //  Copyright (c) 2015年 菜酱. All rights reserved.

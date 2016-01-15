@@ -13,6 +13,7 @@
 + (void)showHUDWithText:(NSString *)text InView:(UIView *)view {
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.userInteractionEnabled = NO;
     hud.mode = MBProgressHUDModeText;
     hud.labelText = text;
     hud.alpha = 0.85f;
