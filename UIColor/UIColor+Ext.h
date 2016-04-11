@@ -1,5 +1,5 @@
 //
-//  NSObject+UIColor_Ext.h
+//  UIColor+Ext.h
 //
 //  Created by 菜酱 on 15/8/14.
 //  Copyright (c) 2015年 菜酱. All rights reserved.
@@ -10,7 +10,7 @@
 #define RGBA_COLOR(R, G, B, A) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:A]
 #define RGB_COLOR(R, G, B) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:1.0f]
 
-@interface UIColor (Hex)
+@interface UIColor (Ext)
 
 + (UIColor *)colorWithHexString:(NSString *)color;
 

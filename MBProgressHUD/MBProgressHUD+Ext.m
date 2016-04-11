@@ -15,10 +15,11 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.userInteractionEnabled = NO;
     hud.mode = MBProgressHUDModeText;
-    hud.labelText = text;
+    hud.detailsLabelText = text;
+    hud.detailsLabelFont = [UIFont systemFontOfSize:14];
     hud.alpha = 0.85f;
     hud.removeFromSuperViewOnHide = YES;
-    [hud hide:YES afterDelay:2];
+    [hud hide:YES afterDelay:4];
     
 }
 
